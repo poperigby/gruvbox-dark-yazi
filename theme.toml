@@ -63,7 +63,7 @@ permissions_s = { fg = "#665c54" }
 # : Input {{{
 
 [input]
-border   = { fg = "#504945" }
+border   = { fg = "#bdae93" }
 title    = {}
 value    = {}
 selected = { reversed = true }
