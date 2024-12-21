@@ -40,10 +40,6 @@ separator_open  = ""
 separator_close = ""
 separator_style = { fg = "#3c3836", bg = "#3c3836" }
 
-# Mode
-mode_normal = { fg = "#282828", bg = "#A89984", bold = true }
-mode_select = { fg = "#282828", bg = "#b8bb26", bold = true }
-mode_unset  = { fg = "#282828", bg = "#d3869b", bold = true }
 
 # Progress
 progress_label  = { fg = "#ebdbb2", bold = true }
@@ -56,6 +52,21 @@ permissions_r = { fg = "#b8bb26" }
 permissions_w = { fg = "#fb4934" }
 permissions_x = { fg = "#b8bb26" }
 permissions_s = { fg = "#665c54" }
+
+# : }}}
+
+
+# : mode {{{
+
+[mode]
+normal_main = { fg = "#282828", bg = "#A89984", bold = true }
+normal_alt = { fg = "#282828", bg = "#A89984", bold = true }
+
+select_main = { fg = "#282828", bg = "#b8bb26", bold = true }
+select_alt = { fg = "#282828", bg = "#b8bb26", bold = true }
+
+unset_main  = { fg = "#282828", bg = "#d3869b", bold = true }
+unset_alt  = { fg = "#282828", bg = "#d3869b", bold = true }
 
 # : }}}
 
